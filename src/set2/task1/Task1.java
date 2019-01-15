@@ -11,8 +11,6 @@ public class Task1 {
         System.out.println(rational.compareTo(rational2));
         System.out.println(rational.add(rational2));
         System.out.println(rational.sub(rational2));
-
-
     }
 
 }
