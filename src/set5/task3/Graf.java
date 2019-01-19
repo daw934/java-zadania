@@ -11,21 +11,26 @@ public class Graf {
     public Graf(String lan) {
         StringTokenizer st = new StringTokenizer(lan,"() ,");
         n = Integer.parseInt(st.nextToken());
+        System.out.println(n);
         tab = new LinkedList[n];
         for (int i = 0; i < n; ++i) {
             tab[i] = new LinkedList();
+        }
             while (st.hasMoreTokens()){
-                tab[Integer.parseInt(st.nextToken())]
+                String s = st.nextToken();
+                tab[Integer.parseInt(s)]
                         .add(Integer.valueOf(st.nextToken()));
             }
-        }
     }
 
     @Override
     public String toString() {
-        return "Graf{" +
-                "n=" + n +
-                ", tab=" + Arrays.toString(tab) +
-                '}';
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i < n; i++) {
+            stringBuilder.append(i).append(": ");
+            tab[i].forEach(s -> stringBuilder.append(s).append(" "));
+            stringBuilder.append("\n");
+        }
+        return stringBuilder.toString();
     }
 }
