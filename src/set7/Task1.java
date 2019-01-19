@@ -22,14 +22,11 @@ public class Task1 {
             InputStream strumien = gniazdo.getInputStream();
             BufferedReader bufor = new BufferedReader(new InputStreamReader(strumien));
             long wiersz;
+            String wiersz1="";
             while ((wiersz = strumien.read()) !=-1){
-                System.out.println(wiersz);
+                wiersz1+=String.valueOf(wiersz);
             }
-
-//            while (){
-//                System.out.println(wiersz);
-//                wiersz = bufor.readLine();
-//            }
+            System.out.println(wiersz1);
         } catch (UnknownHostException e) {
             e.printStackTrace();
         } catch (IOException e) {

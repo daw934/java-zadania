@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9516456a-a35e-48d4-b983-ab104ccd61f9" name="Default" comment="next tasks 6.1">
+    <list default="true" id="9516456a-a35e-48d4-b983-ab104ccd61f9" name="Default" comment="next tasks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/set5/task3/Graf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/set5/task3/Graf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/set5/task3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/set5/task3/Task3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/set7/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/set7/Task1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,13 +28,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4562" />
+          <entry key="java" value="4617" />
           <entry key="txt" value="141" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4562" />
+          <entry key="JAVA" value="4617" />
           <entry key="PLAIN_TEXT" value="141" />
         </counts>
       </usages-collector>
@@ -103,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/set7/Task1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="408">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -305,7 +303,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="308" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547910605340" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547911054783" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -436,7 +434,7 @@
       <workItem from="1546957472865" duration="3375000" />
       <workItem from="1547034788979" duration="1926000" />
       <workItem from="1547546085035" duration="5953000" />
-      <workItem from="1547907091775" duration="3420000" />
+      <workItem from="1547907091775" duration="3731000" />
     </task>
     <task id="LOCAL-00001" summary="next tasks">
       <created>1547036488742</created>
@@ -459,11 +457,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547553075265</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="next tasks">
+      <created>1547910710491</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547910710491</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40608000" />
+    <option name="totallyTimeSpent" value="40919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -509,10 +514,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="next tasks" />
     <MESSAGE value="next tasks 1.1 / 2.1" />
     <MESSAGE value="next tasks 6.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="next tasks 6.1" />
+    <MESSAGE value="next tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="next tasks" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/set3/task1/task2/d.java" />
@@ -778,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/set7/Task1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="408">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
