@@ -10,27 +10,31 @@ import java.net.UnknownHostException;
 public class Task1 {
     public static void main(String[] args) {
         String nazwahosta;
-        if(args.length >0){
-            nazwahosta = args[0];
-            System.out.println("arg");
-        }else {
-            nazwahosta = "time.nist.gov";
-        }
-//        nazwahosta = "time-b.nist.gov";
+
+        if (args.length > 0) {
+            nazwahosta = args[0];}
+        else {
+            nazwahosta = "time-a.nist.gov"; }
         try {
-            Socket gniazdo = new Socket(nazwahosta,37);
+            Socket gniazdo = new Socket(nazwahosta, 37);
             InputStream strumien = gniazdo.getInputStream();
-            BufferedReader bufor = new BufferedReader(new InputStreamReader(strumien));
-            long wiersz;
-            String wiersz1="";
-            while ((wiersz = strumien.read()) !=-1){
-                wiersz1+=String.valueOf(wiersz);
+            long l;
+            long res=0;
+            for(int i=24;i>=0;)
+            {
+                System.out.println("dsd");
+                l = strumien.read();
+                res+= l<<i;
+                i-=8;
             }
-            System.out.println(wiersz1);
-        } catch (UnknownHostException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+
+            System.out.println("Czas: "+res);
+        }
+        catch (UnknownHostException e) {
+            System.err.println(e);
+        }
+        catch (IOException e) {
+            System.err.println(e);
         }
     }
 }
